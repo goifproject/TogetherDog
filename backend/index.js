@@ -9,6 +9,7 @@ const session = require('express-session')
 const Redis = require('connect-redis')
 const Path = require('path')
 const cors = require('cors')
+const fs = require('fs')
 
 const AuthRoute = require('./routes/auth')
 const ImageRoute = require('./routes/image')

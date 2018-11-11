@@ -1,4 +1,4 @@
-$.get('http://togetherdogapi.dimigo.kr/sido', (res) => {
+$.get('https://togetherdogapi.dimigo.kr/sido', (res) => {
   $('#sido').empty()
   $('#sido').append('<option class="option" disabled selected>시/도를 선택하세요</option>')
   for(var i=0;i<res.length;i++){
@@ -6,7 +6,7 @@ $.get('http://togetherdogapi.dimigo.kr/sido', (res) => {
   }
 })
 $('#sido').change(function(){
-  $.get(`http://togetherdogapi.dimigo.kr/sigungu?sido=${$(this).val()}`, (res) => {
+  $.get(`https://togetherdogapi.dimigo.kr/sigungu?sido=${$(this).val()}`, (res) => {
     $('#sigungu').empty()
     $('#sigungu').append('<option class="option" disabled selected>시/군/구를 선택하세요</option>')
     for(var i=0;i<res.length;i++){
@@ -15,7 +15,7 @@ $('#sido').change(function(){
   })
 })
 $('#sigungu').change(function(){
-  $.get(`http://togetherdogapi.dimigo.kr/list?sido=${$('#sido').val()}&sigungu=${$(this).val()}`, (res) => {
+  $.get(`https://togetherdogapi.dimigo.kr/list?sido=${$('#sido').val()}&sigungu=${$(this).val()}`, (res) => {
     $('#row').empty()
     for(var i=0;i<res.length;i++){
       $('#row').append(`<div class="items pet" style="background-image:url(${res[i].thumbnail})" data-id="${i}"><span class="pet-kind">${res[i].kind}</span></div>`)
