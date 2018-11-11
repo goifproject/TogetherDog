@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>if</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+KR" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/join.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="icon-box">
+            <img src="./img/logo.png" alt="" class="logo">
+            <img src="./img/logo-text.png" alt="" class="logo-text">
+        </div>
+        <div class="left-box">
+            <div class="left-real-box">
+                <p class="main-title">신청하기</p>
+                <img src="./img/icon2.png" alt="" class="title-img">
+                <div class="left-sub-title">
+                    <a class="big-sub">지역선택</a>
+                    <a class="small-sub">거주하는 지역을 선택해 주세요</a>
+                </div>
+                <div class="up-select">
+                    <div class="left-select">
+                        <p class="select-font">시/도</p>
+                    </div>
+                    <select name="job" class="select" id="sido">
+                        <option class="option" disabled selected>시/도를 선택하세요</option>
+                    </select>
+                </div>
+                <div class="down-select">
+                    <div class="left-select2">
+                        <p class="select-font">시/군/구</p>
+                    </div>
+                    <select name="job" class="select2" id="sigungu">
+                        <option class="option" disabled>시/군/구를 선택하세요</option>
+                    </select>
+                </div>
+                <div class="dog-box">
+                    <img src="./img/dog.png" alt="" class="dog">
+                </div>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="right-real-box">
+                <div class="dog-info-box">
+                    <div class="big-img">
+                    </div>
+                    <ul>
+                        <li class="li-style"><span class="li-font">품종</span><span id="pet-kind" class="li-font2">보리</span></li>
+                        <li class="li-style"><span class="li-font">나이</span><span id="pet-age" class="li-font2">1살</span></li>
+                        <li class="li-style"><span class="li-font">장소</span><span id="pet-care" class="li-font2">서울특별시 성동구 성수동2가 280-38 아인빌딩</span></li>
+                    </ul>
+                </div>
+                <div class="dog-list-box" id="row">
+                    <div class="pet">
+                        <!-- <img src="./img/d1.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+            <div class="next-btn">
+                <a href="./check.html" class="next-font">다음 페이지 <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <script src="./js/join.js"></script>
+    </body>
+</html>

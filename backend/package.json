@@ -1,0 +1,26 @@
+{
+  "name": "togetherdog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "kdwkr<me@kdw.kr>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-redis": "^3.4.0",
+    "cookie-parser": "^1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "helmet": "^3.15.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.41.1",
+    "sharp": "^0.21.0",
+    "urlencode": "^1.1.0",
+    "xml2js": "^0.4.19"
+  }
+}

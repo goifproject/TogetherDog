@@ -1,0 +1,269 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fff9f0;
+}
+.icon-box {
+    width: 100%;
+    height: 90px;
+    background: #493c2b;
+}
+.main-title {
+    text-align: left;
+    color: black;
+    font-weight: 900;
+    margin: 20px 0 25px 0;
+    font-size: 45px;
+    text-shadow: 2px 2px #959595;
+}
+.left-box {
+    width: 50%;
+    height: 88%;
+    float: left;
+}
+.right-box {
+    width: 50%;
+    height:88%;
+    float: left;
+}
+.up-select {
+    height: 40px;
+    box-shadow: 0 5px 5px 0 #999;
+    border-radius: 20px;
+}
+.down-select {
+    height: 40px;
+    margin-top: 15px;
+    box-shadow: 0 5px 5px 0 #999;
+    border-radius: 20px;
+}
+.left-select {
+    width: 80px;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    background: #7a6652;
+    float: left;
+}
+.left-select2 {
+    width: 110px;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    background: #7a6652;
+    float: left;
+}
+.right-select {
+    width: 90%;
+    height: 100%;
+}
+.select {
+    width: calc(100% - 80px);
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    background: #7a6652;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+.select2 {
+    width: calc(100% - 110px);
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    background: #7a6652;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+.select-font {
+    color: #fff;
+    font-size: 20px;
+    margin: 4% 5% 0 18%;
+    border-right: 1.5px solid #fff;
+}
+.option {
+    background: #fff;
+    padding: 3px 0;
+    color: #000;
+    border: 1px solid #000;
+}
+.left-real-box {
+    width: 70%;
+    height: auto;
+    margin: 10% 10% 0 20%;
+}
+.big-sub {
+    font-size: 30px;
+    font-weight: 600;
+}
+.small-sub {
+    font-size: 15px;
+}
+.left-sub-title {
+    padding: 0 0 5px 5px;
+}
+.dog-box {
+    width: 60%;
+    height: 300px;
+    margin: 0 20%;
+}
+.dog {
+    width:100%;
+    height: 100%;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 43%;
+}
+.logo-text {
+    width: 120px;
+    position: relative;
+    left: 43%;
+    top: -10px;
+}
+.title-img {
+    height: 60px;
+    position: absolute;
+    top: 23.5%;
+    left: 21%;
+}
+.right-real-box {
+    background: #493c2b;
+    width: 60%;
+    height: 80%;
+    margin: 8% 25% 8% 15%;
+    border-radius: 15px;
+}
+.dog-info-box {
+    width: calc(100% - 20px);
+    height: 65%;
+    position: relative;
+    top: 10px;
+    background: #fff9f0;
+    left: 10px;
+    border-radius: 15px;
+}
+.dog-list-box {
+    width: 96%;
+    height: 29%;
+    background: #fff9f0;
+    margin: 2%;
+    top: 2%;
+    position: relative;
+    border-radius: 15px;
+}
+#row {
+    white-space: nowrap;/* 가로스크롤시 중요한 속성 */
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #fff9f0;
+    width: 96%;
+}
+
+#row .items {
+    display: inline-block;
+    width: 120px;
+    margin: 10px 5px 0 5px;
+    height: 120px;
+    position: relative;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+#row .items:first-child {
+    margin-left: 15px;
+}
+.info-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+ul {
+    padding: 0;
+    position: relative;
+}
+li.li-style {
+    list-style: none;
+    width: 70%;
+    height: 28px;
+    border-radius: 15px;
+    margin: 10px 65px;
+    background: #7a6652;
+    box-shadow: 2px 3px 3px 0 #999;
+}
+.big-img {
+    width: 70%;
+    height: 60%;
+    background-image: url(../img/dog2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 65px;
+    top: 8px;
+    border-radius: 15px;
+}
+.li-font {
+    color: #fff;
+    padding-left: 4%;
+    font-size: 17px;
+}
+.li-font2 {
+    color: #fff;
+    padding-left: 5%;
+    font-size: 12px;
+    position: relative;
+    bottom: 4%;
+}
+.next-btn {
+    width: 100px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: -50%;
+    left: 80%;
+}
+.next-font {
+    color: #7a6652;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.pet-kind {
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+#row .items::after {
+    content: "";
+    background: linear-gradient(#00000000, #00000099);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 15px;
+}
+.dog-list-box::-webkit-scrollbar {
+    height: 10px;
+}
+
+/* Track */
+.dog-list-box::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+.dog-list-box::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+.dog-list-box::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

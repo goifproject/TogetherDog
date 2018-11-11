@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fff9f0;
+}
+.icon-box {
+    width: 100%;
+    height: 90px;
+    background: #493c2b;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 43%;
+}
+.logo-text {
+    width: 120px;
+    position: relative;
+    left: 43%;
+    top: -10px;
+}
+.title-box {
+    width: calc(100% - 200px);
+    height: 80px;
+    padding: 100px 0 50px 200px;
+}
+.big-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #493c2b;
+    text-decoration: none;
+}
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.list-input {
+    font-size: 20px;
+    color: #493c2b;
+}
+.list-input-title {
+    font-size: 30px;
+    color: #493c2b;
+    font-weight: 600;
+}
+.input2 {
+    width: 350px;
+    height: 45px;
+    background: #fff9f0;
+    border: 1px solid #493c2b;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-left: 60px;
+}
+.input3 {
+    width: 350px;
+    height: 45px;
+    background: #fff9f0;
+    border: 1px solid #493c2b;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-left: 58px;
+}
+.input4 {
+    width: 350px;
+    height: 45px;
+    background: #fff9f0;
+    border: 1px solid #493c2b;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.input6 {
+    width: 450px;
+    height: 45px;
+    background: #fff9f0;
+    border: 1px solid #493c2b;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.input8 {
+    width: 220px;
+    height: 45px;
+    background: #7a6652;
+    border: 1px solid #493c2b;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-left: 50px;
+    float: left;
+}
+.input9 {
+    width: 220px;
+    height: 45px;
+    background: #7a6652;
+    border: 1px solid #493c2b;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px 15px;
+    float: left;
+    font-size: 15px;
+}
+.left-box {
+    width: 45%;
+    height: auto;
+    float: left;
+}
+.right-box {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-left: 5%;
+}
+.left-inside {
+    width: 70%;
+    margin-left: 30%;
+}
